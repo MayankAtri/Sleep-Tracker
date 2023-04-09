@@ -40,52 +40,52 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/previous"
         android:layout_width="140dp"
-        android:layout_height="51dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="52dp"
         android:layout_weight="1"
         android:background="@drawable/button_bg"
-        android:text="Button"
+        android:text="Previous Sleeps"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/trouble"
         android:layout_width="140dp"
-        android:layout_height="51dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="52dp"
         android:background="@drawable/button_bg"
-        android:text="Button"
+        android:text="Trouble Sleeping?"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.072"
-        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toEndOf="@+id/previous"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/Button"
         android:layout_width="140dp"
-        android:layout_height="51dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="48dp"
         android:background="@drawable/button_bg"
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/previous" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="140dp"
-        android:layout_height="51dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginTop="48dp"
         android:background="@drawable/button_bg"
         android:text="Button"
-        app:layout_constraintEnd_toEndOf="@+id/button5"
-        app:layout_constraintStart_toEndOf="@+id/button7"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintEnd_toEndOf="@+id/trouble"
+        app:layout_constraintStart_toEndOf="@+id/Button"
+        app:layout_constraintTop_toBottomOf="@+id/trouble" />
 
     <LinearLayout
         android:layout_width="409dp"
@@ -117,6 +117,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="40dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Your Average Sleep"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
         </LinearLayout>
